@@ -1,0 +1,10 @@
+{
+  "name": "tefilah.support",
+  "version": "1.0.0",
+  "description": "Support scripts for tefilah.support",
+  "author": "amaster507",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-parser": "^3.2.0"
+  }
+}

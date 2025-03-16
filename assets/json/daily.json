@@ -1,0 +1,164 @@
+[
+    {
+        "focus": "Pray for your church as you support your ministry partner(s) in <span class='data-name'></span>.",
+        "task": "Is there any special missions project your church is helping to raise funds for? Is there an upcoming Missions Conference or guest Missionary scheduled? Are there any future laborers currently being trained or prepared for the ministry in your church?",
+        "prayers": [
+            "If your church is not currently supporting any ministry partners in <span class='data-name'></span>, pray for God to show your church leaders the need to support a ministry partner in <span class='data-name'></span>.",
+            "Pray for your church leaders for wisdom as they partner with existing and new ministries.",
+            "Pray for your church financial needs to be met to maintain and increase mission support.",
+            "Pray for God to bless those giving sacrificially to missions.",
+            "Pray for your fellow church members to have a burden for your ministry partners.",
+            "Pray for your church to reach your local community to increase the Kingdoem of God and in turn increase the potential of supporting additional ministry partners.",
+            "Pray for those in the church whom God may be calling to be a laborer in <span class='data-name'></span>.",
+            "Pray for the future generation to remain faithful and involved in missionary work."
+        ]
+    },
+    {
+        "focus": "Pray for the leaders of <span class='data-name'></span>.",
+        "task": "Research the leader(s) and government systen in place in <a target='_blank' title='Wikipedia' class='data-name data-wikipedia-href-politics'></a>.",
+        "prayers": [
+            "Ask God to save the leader(s) of <span class='data-name'></span>. Name the leader(s) in your prayer.",
+            "Ask God to guide the leader(s) of <span class='data-name'></span> to support righteousness.",
+            "Ask God to give the leader(s) of <span class='data-name'></span> wisdom to make good decisions that will allow the Gospel to be spread in <span class='data-name'></span>.",
+            "Ask God to allow the political process in <span class='data-name'></span> to be favorable to missionaries",
+            "Ask God to allow the judicial system in <span class='data-name'></span> to be favorable to missions."
+        ]
+    },
+    {
+        "focus": "Pray for all of the missionaries serving in <span class='data-name'></span>.",
+        "task": "Research and find missionaires serving in <span class='data-name'></span>. If it is a closed country, online presence may be limited.",
+        "prayers": [
+            "Speak the name of each missionary family to God who is serving in <span class='data-name'></span>.",
+            "Ask God to give unity amongst all the missionaries serving in <span class='data-name'></span>.",
+            "Ask God to give them joy as they are far from home in <span class='data-name'></span>.",
+            "Ask God to give them safety as they travel in <span class='data-name'></span> to their places of ministry."
+        ],
+        "links": []
+    },
+    {
+        "focus": "Today, pray for your ministry partners in <span class='data-name'></span>. If you do not have a ministry partner in <span class='data-name'></span>, pick one or two ministry partners to pray for today.",
+        "task": "Are there any speicific needs, family situations, or ministry porjects recently mentioned in the selected ministry partner(s) prayer letters?",
+        "prayers": [
+            "Ask God to protect them:",
+            [
+                "Protect them from danger and give them safety.",
+                "Protect them from Satan's attempts to stop them.",
+                "Protect them from those who would try to stop their work."
+            ],
+            "Ask God to provide for them:",
+            [
+                "The money they need to live.",
+                "The money they need to buy ministry items.",
+                "Give the rest they need.",
+                "Provide tools or things they need to do their assignments for God."
+            ],
+            "Ask God to help them communicate in the language. (<span class='data-languages'></span>)",
+            [
+                "Pray they will learn the words and grammer they need to live and present the Gospel.",
+                "Pray they will have people who understand if they make mistakes as they learn.",
+                "Pray for their language teacher to have wisdom as they teach the principles of that language.",
+                "If they do not have a Bible in that language, pray for God to provide one."
+            ],
+            "Ask God to bless their family.",
+            [
+                "Ask God to fill their home with Joy, Peace, and Harmony.",
+                "Ask God to help their home be an example to the lost of a godly home; to the believer of Christ and the church; and to the future generations of how to be a Christian.",
+                "Ask God to protect their home Physically (that God will keep them safe at night and in the day); Spiritually (that God will stop Satan's attacks); Medically (that God will give them good health); and Mentally (that God will help them to think clearly, choose wisely, and live godly)."
+            ],
+            "Ask God to bless their financial supporters. [You will probably not be able to mention these by name]",
+            [
+                "Pray for the individuals who support your ministry partner such as family, business friends, personal friends, etc.",
+                "Pray for the churches who support your ministry partner that God will keep them faithful in their support, that God will meet their needs as they meet the needs of your ministry partner, and that God will call new laborers from these churches."
+            ]
+        ]
+    },
+    {
+        "focus": "Pray for the people of <span class='data-name'></span>. (Est. Pop.: <span class='data-population'></span>)",
+        "task": "Do you know anyone in <span class='data-name'></span> by name? If possible, find a missionary in <span class='data-name'></span> and read their recent prayer letter(s) looking for people mentioned by name who are in need of prayer.",
+        "prayers": [
+            "Pray for God to remove their spiritual blindness.",
+            [
+                "The blindness of religion.",
+                "The blindness to their need of the Gospel."
+            ],
+            "Pray for God to opn hearts, minds, and doors.",
+            [
+                "Pray for God to open hearts to receive the truth.",
+                "Pray for God to open minds to believe the Gospel.",
+                "Pray for God to open doors to villages and cities so they can hear the Gospel."
+            ],
+            "Pray for God to raise leaders in the churches where the Gospel is being preached.",
+            [
+                "Pray for God to show the future leaders to your ministry partners.",
+                "Pray for God to stop Satan from ruining the lives of these future leaders.",
+                "Pray for understanding for these future leaders and what the missionary is teaching them."
+            ],
+            "Pray for more laborers to go to <span class='data-name'/>.",
+            "Pray for national leaders to be raised to reach their people."
+        ]
+    },
+    {
+        "focus": "Pray for the ministries of your ministry partner(s) in <span class='data-name'></span>.",
+        "task": "Select a ministry partner in <span class='data-name'></span> and read their recent prayer letter looking for their ministry opportunities. If you do not have a ministry partner in <span class='data-name'></span>, select a ministry partner to pray for today.",
+        "prayers": [
+            "If they preach:",
+            [
+                "Pray for them as they prepare sermons",
+                "Pray for the preaching of the sermon.",
+                "Pray for the translator (if needed) as the missionary preaches the message.",
+                "Pray for the invitation given at the end of the message.",
+                "Pray for God's filling of the missionary and the hearers with the Holy Spirit.",
+                "Pray God will hinder Satan during the church service.",
+                "Pray for the Gospel to be made clear through the language differences.",
+                "Pray for lasting fruit"
+            ],
+            "If they teach:",
+            [
+                "Pray for the lesson preparation.",
+                "Pray for the lesson delivery.",
+                "Pray for the translation during the delivery.",
+                "Pray for the Holy Spirit to apply the lesson to those who hear it.",
+                "Pray for ears to hear.",
+                "Pray for hearts to respond.",
+                "Pray for lasting fruit."
+            ],
+            "If they assist another missionary in the work:",
+            [
+                "Pray for unity between the missionary and the helpers.",
+                "Pray for strength for the helpers.",
+                "Pray for God's power to be on those who assist and serve.",
+                "Pray for lasting fruit."
+            ],
+            "If they disciple believers:",
+            [
+                "Pray the believers will grow in grace.",
+                "Pray the believers will grow in knowledge.",
+                "Pray the believers will follow the Bible.",
+                "Pray for the discipleship appointments to be keps.",
+                "Pray for God's power on the disciples and the one who disciples.",
+                "Pray for lasting fruit."
+            ],
+            "If they train people for ministry:",
+            [
+                "Pray for wisdom as they prepare material to train.",
+                "Pray for the students they teach.",
+                "Pray God will give wisdom to the teachers.",
+                "Pray God will remove obstacles to learning.",
+                "Pray God will meet the student's needs.",
+                "Pray God will keep Satan from disturbing the classes",
+                "Pray for the grades of the students on their exams.",
+                "Pray for lasting fruit."
+            ]
+        ]
+    },
+    {
+        "focus": "Pray for the surrounding countries of <span class='data-name'></span>.",
+        "task": "What are the surrounding countries of <span class='data-name'></span>? [hint: <span class='data-borders'></span>]",
+        "prayers": [
+            "Pray for the churches being planted in <span class='data-name'></span> to become burdened for the lost in their own country and the surrounding countries.",
+            "Pray for the unsaved and untold in countries bordering <span class='data-name'></span>.",
+            "Pray for the missionaries working and their ministries in the neighboring countries.",
+            "Pray for more labroers to go to the neighboring countries."
+        ]
+    }
+]
