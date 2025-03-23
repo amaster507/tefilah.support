@@ -54,6 +54,7 @@
             </p>
             <!-- email subscribe form -->
             <form
+              id="SubscribeForm"
               action="api/subscribe.php"
               method="POST"
               class="subscribe-form"
@@ -66,6 +67,7 @@
                 />
                 <button type="submit">Subscribe</button>
             </form>
+            <div id="PostSubscribe" style="display: none">Subscribing...</div>
             <p>Remember there are people in missions who:</p>
             <div class="list">
               <p>People who help from home.</p>
@@ -98,7 +100,7 @@
         <!-- Intro -->
         <article id="intro">
           <h2 class="major">Intro</h2>
-          <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+          <span class="image main"><img src="images/tefilah.support.png" alt="" /></span>
           <p>
             Tefilah.support was the name chosen for this site after having a
             desire to help myself and others strengthen how we pray, and pray
@@ -188,7 +190,7 @@
         <!-- About -->
         <article id="about">
           <h2 class="major">About</h2>
-          <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+          <span class="image main"><img src="images/tefilah.support-2.png" alt="" /></span>
           <p>
             "Prayer partners do not need a passport." Prayer allows you to
             travel the world in a few minutes per day. Through prayer you can
@@ -229,7 +231,7 @@
         <!-- Contact -->
         <article id="contact">
           <h2 class="major">Contact</h2>
-          <form method="post" action="api/contact.php">
+          <form id="ContactForm" method="post" action="api/contact.php">
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
@@ -251,6 +253,10 @@
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
+          <div id="PostContact" style="display: none;">
+            <p>Thank you! Your message has been sent. Please allow 2-3 business
+            days for a reply if merited.</p>
+          </div>
           <ul class="icons">
             <li>
               <a href="https://x.com/AMaster507" class="icon brands fa-twitter"
@@ -269,6 +275,32 @@
             </li>
           </ul>
         </article>
+
+        <!-- Unsubscribe -->
+        <article id="unsubscribe">
+            <h2 class="major">Unsubscribe</h2>
+            <form id="UnsubscribeForm" method="post"
+            action="api/unsubscribe.php">
+              <p>We wish this process was easier, but please enter your email
+              address one more time so we can remove it from our list.</p>
+              <div class="fields">
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="address" id="unsub-address" />
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Unsubscribe" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </form>
+            <div id="PostUnsubscribe" style="display: none;">
+              <p>Sorry to see you go! Hope we did not bother you too much trying
+              to initiate genuine prayer from the heart for World Missions!</p>
+            </div>
+          </article>
       </div>
 
       <!-- Footer -->
@@ -286,6 +318,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js?v=0.0.8"></script>
   </body>
 </html>

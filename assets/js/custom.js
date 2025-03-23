@@ -63,8 +63,9 @@ function buildList(data) {
 }
 
 function getCurrentTimeInTimeZone(timeZone) {
+    const offset = timeZone.replace('UTC', '');
     const options = {
-        timeZone: '+01:00',
+        timeZone: offset,
         hour: '2-digit',
         minute: '2-digit',
         hour12: true
@@ -139,3 +140,95 @@ function getCountry() {
     })
     .catch(error => console.error('Error fetching the countries data:', error));
 }
+
+const form = document.getElementById('ContactForm');
+const postContactDiv = document.getElementById('PostContact');
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // hide the form
+    form.style.display = 'none';
+    // add a message to show that the contact form is being sent
+    postContactDiv.innerHTML = '<p>Sending...</p>';
+    // show the post contact message
+    postContactDiv.style.display = 'block';
+
+    // get the form data into a URLSearchParams object
+    const formData = new URLSearchParams(new FormData(form));
+
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+    });
+
+    if (response.ok) {
+        // show the success message
+        postContactDiv.innerHTML = '<p>Thank you! Your message was sent. Please allow 2-3 business days for a reply if merited.</p>';
+    } else {
+        // show the error message
+        postContactDiv.innerHTML = '<p>There was an error sending your message. Please try again later</p>';
+    }
+})
+
+const subscribeForm = document.getElementById('SubscribeForm');
+const postSubscribeDiv = document.getElementById('PostSubscribe');
+subscribeForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // hide the form
+    subscribeForm.style.display = 'none';
+    // show the post contact message
+    postSubscribeDiv.style.display = 'block';
+
+    // get the form data into a URLSearchParams object
+    const formData = new URLSearchParams(new FormData(subscribeForm));
+
+    const response = await fetch(subscribeForm.action, {
+        method: subscribeForm.method,
+        body: formData,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+    });
+
+    if (response.ok) {
+        // show the success message
+        postSubscribeDiv.innerHTML = '<p>Thank you for subscribing!</p>';
+    } else {
+        // show the error message
+        postSubscribeDiv.innerHTML = '<p>There was an error subscribing. Please try again later</p>';
+    }
+})
+
+const unsubscribeForm = document.getElementById('UnsubscribeForm');
+const postUnsubscribeDiv = document.getElementById('PostUnsubscribe');
+unsubscribeForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // hide the form
+    unsubscribeForm.style.display = 'none';
+    // show the post contact message
+    postUnsubscribeDiv.style.display = 'block';
+
+    // get the form data into a URLSearchParams object
+    const formData = new URLSearchParams(new FormData(unsubscribeForm));
+
+    const response = await fetch(unsubscribeForm.action, {
+        method: unsubscribeForm.method,
+        body: formData,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+    });
+
+    if (response.ok) {
+        // show the success message
+        postUnsubscribeDiv.innerHTML = '<p>Sorry to see you go! Hope we did not bother you too much trying to initiate genuine prayer from the heart for World Missions!</p>';
+    } else {
+        // show the error message
+        postUnsubscribeDiv.innerHTML = '<p>There was an error unsubscribing. Please try again later</p>';
+    }
+})

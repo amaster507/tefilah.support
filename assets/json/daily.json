@@ -5,17 +5,17 @@
         "prayers": [
             "If your church is not currently supporting any ministry partners in <span class='data-name'></span>, pray for God to show your church leaders the need to support a ministry partner in <span class='data-name'></span>.",
             "Pray for your church leaders for wisdom as they partner with existing and new ministries.",
-            "Pray for your church financial needs to be met to maintain and increase mission support.",
+            "Pray for your church's financial needs to be met to maintain and increase mission support.",
             "Pray for God to bless those giving sacrificially to missions.",
             "Pray for your fellow church members to have a burden for your ministry partners.",
-            "Pray for your church to reach your local community to increase the Kingdoem of God and in turn increase the potential of supporting additional ministry partners.",
+            "Pray for your church to reach your local community to increase the Kingdom of God and in turn increase the potential of supporting additional ministry partners.",
             "Pray for those in the church whom God may be calling to be a laborer in <span class='data-name'></span>.",
             "Pray for the future generation to remain faithful and involved in missionary work."
         ]
     },
     {
         "focus": "Pray for the leaders of <span class='data-name'></span>.",
-        "task": "Research the leader(s) and government systen in place in <a target='_blank' title='Wikipedia' class='data-name data-wikipedia-href-politics'></a>.",
+        "task": "Research the leader(s) and government system in place in <a target='_blank' title='Wikipedia' class='data-name data-wikipedia-href-politics'></a>.",
         "prayers": [
             "Ask God to save the leader(s) of <span class='data-name'></span>. Name the leader(s) in your prayer.",
             "Ask God to guide the leader(s) of <span class='data-name'></span> to support righteousness.",
@@ -26,7 +26,7 @@
     },
     {
         "focus": "Pray for all of the missionaries serving in <span class='data-name'></span>.",
-        "task": "Research and find missionaires serving in <span class='data-name'></span>. If it is a closed country, online presence may be limited.",
+        "task": "Research and find missionaries serving in <span class='data-name'></span>. If it is a closed country, online presence may be limited.",
         "prayers": [
             "Speak the name of each missionary family to God who is serving in <span class='data-name'></span>.",
             "Ask God to give unity amongst all the missionaries serving in <span class='data-name'></span>.",
@@ -37,7 +37,7 @@
     },
     {
         "focus": "Today, pray for your ministry partners in <span class='data-name'></span>. If you do not have a ministry partner in <span class='data-name'></span>, pick one or two ministry partners to pray for today.",
-        "task": "Are there any speicific needs, family situations, or ministry porjects recently mentioned in the selected ministry partner(s) prayer letters?",
+        "task": "Are there any specific needs, family situations, or ministry projects recently mentioned in the selected ministry partner(s) prayer letters?",
         "prayers": [
             "Ask God to protect them:",
             [
@@ -54,7 +54,7 @@
             ],
             "Ask God to help them communicate in the language. (<span class='data-languages'></span>)",
             [
-                "Pray they will learn the words and grammer they need to live and present the Gospel.",
+                "Pray they will learn the words and grammar they need to live and present the Gospel.",
                 "Pray they will have people who understand if they make mistakes as they learn.",
                 "Pray for their language teacher to have wisdom as they teach the principles of that language.",
                 "If they do not have a Bible in that language, pray for God to provide one."
@@ -93,7 +93,7 @@
                 "Pray for God to stop Satan from ruining the lives of these future leaders.",
                 "Pray for understanding for these future leaders and what the missionary is teaching them."
             ],
-            "Pray for more laborers to go to <span class='data-name'/>.",
+            "Pray for more laborers to go to <span class='data-name'></span>.",
             "Pray for national leaders to be raised to reach their people."
         ]
     },
@@ -134,7 +134,7 @@
                 "Pray the believers will grow in grace.",
                 "Pray the believers will grow in knowledge.",
                 "Pray the believers will follow the Bible.",
-                "Pray for the discipleship appointments to be keps.",
+                "Pray for the discipleship appointments to be kept.",
                 "Pray for God's power on the disciples and the one who disciples.",
                 "Pray for lasting fruit."
             ],
@@ -144,8 +144,8 @@
                 "Pray for the students they teach.",
                 "Pray God will give wisdom to the teachers.",
                 "Pray God will remove obstacles to learning.",
-                "Pray God will meet the student's needs.",
-                "Pray God will keep Satan from disturbing the classes",
+                "Pray God will meet the students' needs.",
+                "Pray God will keep Satan from disturbing the classes.",
                 "Pray for the grades of the students on their exams.",
                 "Pray for lasting fruit."
             ]
@@ -158,7 +158,7 @@
             "Pray for the churches being planted in <span class='data-name'></span> to become burdened for the lost in their own country and the surrounding countries.",
             "Pray for the unsaved and untold in countries bordering <span class='data-name'></span>.",
             "Pray for the missionaries working and their ministries in the neighboring countries.",
-            "Pray for more labroers to go to the neighboring countries."
+            "Pray for more laborers to go to the neighboring countries."
         ]
     }
 ]
